@@ -1,0 +1,101 @@
+.work {
+  background-color: $color-black;
+  padding: 20px 0;
+
+  &__title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    clip-path: polygon(49% 52%, 62% 0, 73% 33%, 86% 0, 100% 99%, 0 100%, 13% 0, 24% 35%, 35% 0);
+    width: 500px;
+    height: 100px;
+    background-color: $color-primary;
+    color: $color-primary;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-text-stroke: 2px $color-red;
+    letter-spacing: 4px;
+  }
+
+  &__ul {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+  }
+
+  &__list {
+    background-color: gold;
+    box-shadow: 0 0 10px $color-white;
+    border-radius: 10px;
+    padding: 20px 0;
+
+    transition: all .4s;
+
+    &:hover {
+      background-color: $color-secondary;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 10px;
+      color: $color-primary;
+      text-shadow: -2px 2px 6px $color-red, -2px -2px 6px $color-red, 2px -2px 6px $color-red, 2px 2px 6px $color-red;
+    }
+
+    .box {
+      list-style: none;
+
+      &__list {
+        border: 1px solid $color-secondary;
+      }
+
+      &__link {
+        text-decoration: none;
+        display: block;
+        background-color: transparent;
+        padding: 10px 40px;
+        color: inherit;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        font-weight: 600;
+
+        transition: all .4s;
+
+        display: flex;
+        align-items: center;
+
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 40px;
+          height: 45px;
+          background-image: url(../imgs/css3.png);
+          background-repeat: no-repeat;
+          background-size: 40px 40px;
+          margin-right: 10px;
+        }
+
+        &:hover {
+          background-color: $color-primary;
+          color: $color-red;
+        }
+      }
+
+      &--javascript .box__link::before {
+        background-image: url(../imgs/javascript.jpg);
+        background-repeat: no-repeat;
+        background-size: 40px 40px;
+      }
+
+      &--reactjs .box__link::before {
+        background-image: url(../imgs/reactjs.png);
+        background-repeat: no-repeat;
+        background-size: 40px 40px;
+      }
+    }
+  }
+}
