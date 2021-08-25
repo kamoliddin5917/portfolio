@@ -6,6 +6,10 @@
   font-size: 40px;
   text-align: center;
 
+  @media only screen and(max-width:370px) {
+    font-size: 20px;
+  }
+
   &--title {
     margin-bottom: 20px;
     clip-path: polygon(49% 52%, 62% 0, 73% 33%, 86% 0, 100% 99%, 0 100%, 13% 0, 24% 35%, 35% 0);
@@ -17,6 +21,10 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+
+    @media only screen and(max-width:520px) {
+      width: 300px;
+    }
   }
 
   &--name,

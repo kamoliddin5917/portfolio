@@ -39,6 +39,10 @@ body {
 
 .main {
   margin-top: 64px;
+
+  @media only screen and(max-width:600px) {
+    margin-top: 74px;
+  }
 }
 
 .container {

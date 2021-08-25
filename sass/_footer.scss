@@ -8,6 +8,10 @@
     align-items: center;
     justify-content: center;
 
+    @media only screen and(max-width:440px) {
+      flex-direction: column;
+    }
+
     .button {
       color: $color-primary;
       width: 200px;

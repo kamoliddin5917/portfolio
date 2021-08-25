@@ -7,6 +7,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media only screen and(max-width:700px) {
+      flex-direction: column;
+    }
   }
 
   &__img {
@@ -18,12 +22,20 @@
   &__text {
     margin-left: 20px;
 
+    @media only screen and(max-width:700px) {
+      margin-top: 30px;
+    }
+
     .lenguages {
       list-style: none;
       display: flex;
       align-items: center;
       justify-content: space-around;
       margin-bottom: 10px;
+
+      @media only screen and(max-width:600px) {
+        flex-direction: column;
+      }
 
       .lenguage {
         color: $color-red;
