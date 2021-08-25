@@ -45,6 +45,10 @@
         border-right: transparent;
         border-left: transparent;
         padding: 4px 10px;
+
+        @media only screen and(max-width:600px) {
+          margin-top: 10px;
+        }
       }
     }
   }
