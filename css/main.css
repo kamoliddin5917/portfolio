@@ -88,6 +88,11 @@ body::-webkit-scrollbar-thumb:hover {
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+}
 
 .h1 {
   text-transform: uppercase;
