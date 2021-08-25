@@ -354,6 +354,8 @@ a {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media only screen and (max-width: 600px) {
   .header .container .navbar {
@@ -829,6 +831,8 @@ a {
   display: inline-block;
   border-radius: 50%;
   margin-bottom: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .about__text {
   margin-left: 20px;
