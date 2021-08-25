@@ -44,6 +44,11 @@
         line-height: 40px;
       }
 
+      @media only screen and(max-width:290px) {
+        font-size: 20px;
+      }
+
+
       &:nth-child(1) {
         animation: text-animated 8s linear infinite;
       }

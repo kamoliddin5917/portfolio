@@ -125,6 +125,11 @@ body::-webkit-scrollbar-thumb:hover {
     width: 300px;
   }
 }
+@media only screen and (max-width: 305px) {
+  .h1--title {
+    width: 100%;
+  }
+}
 .h1--name, .h1--contact {
   padding-bottom: 10px;
   border-bottom: 2px solid red;
@@ -481,6 +486,11 @@ a {
     line-height: 40px;
   }
 }
+@media only screen and (max-width: 290px) {
+  .home__text span {
+    font-size: 20px;
+  }
+}
 .home__text span:nth-child(1) {
   -webkit-animation: text-animated 8s linear infinite;
           animation: text-animated 8s linear infinite;
@@ -827,12 +837,23 @@ a {
     flex-direction: column;
   }
 }
+.about__left {
+  text-align: center;
+}
 .about__img {
   display: inline-block;
   border-radius: 50%;
   margin-bottom: 10px;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+@media only screen and (max-width: 290px) {
+  .about__img {
+    width: 200px;
+    height: 200px;
+  }
 }
 .about__text {
   margin-left: 20px;
