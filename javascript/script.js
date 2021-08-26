@@ -9,10 +9,10 @@ window.addEventListener("scroll", () => {
   scrolBtnA.classList.toggle("arrow-active", window.scrollY > 500);
 });
 
-scrolBtnA.addEventListener("click", () => {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-});
+// scrolBtnA.addEventListener("click", () => {
+//   document.body.scrollTop = 0;
+//   document.documentElement.scrollTop = 0;
+// });
 
 hamburger.addEventListener("click", () => {
   navbar.classList.toggle("navbar-active");
