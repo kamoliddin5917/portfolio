@@ -1182,7 +1182,7 @@ a {
 }
 .about__img {
   display: inline-block;
-  border-radius: 50%;
+  border-radius: 20px;
   margin-bottom: 10px;
   -o-object-fit: cover;
      object-fit: cover;

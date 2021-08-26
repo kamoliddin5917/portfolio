@@ -19,7 +19,7 @@
 
   &__img {
     display: inline-block;
-    border-radius: 50%;
+    border-radius: 20px;
     margin-bottom: 10px;
     object-fit: cover;
     width: 300px;
@@ -33,6 +33,7 @@
 
   &__text {
     margin-left: 20px;
+
 
     @media only screen and(max-width:700px) {
       margin-top: 30px;
