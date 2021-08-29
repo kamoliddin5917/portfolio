@@ -518,6 +518,18 @@ a {
   color: inherit;
 }
 
+.animation {
+  transform: translateY(100px);
+  opacity: 0;
+  visibility: hidden;
+}
+.animation-active {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  transition: all 1s cubic-bezier(0.88, 1.56, 1, 1.95);
+}
+
 .btns {
   position: fixed;
   top: 50%;
