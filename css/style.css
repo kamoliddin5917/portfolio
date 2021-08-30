@@ -1,4 +1,4 @@
-/* *,
+*,
 * ::after,
 * ::before {
   margin: 0;
@@ -254,10 +254,8 @@ input[type=checkbox]:checked+label~section {
   top: 110%;
 }
 
-@media only screen and(max-width:600px) {
-
-  .light-dark,
-  .bb8_label {
-    display: none;
+@media only screen and (max-width: 600px) {
+  .light-dark {
+    top: 50%;
   }
-} */
+}

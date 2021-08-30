@@ -35,6 +35,12 @@ body {
   &::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+
+}
+
+.color-active {
+  background-color: white !important;
+  color: black !important;
 }
 
 .main {

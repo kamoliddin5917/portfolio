@@ -4,6 +4,10 @@ const hamburger = document.querySelector(".hamburder");
 const navbar = document.querySelector(".navbar");
 const links = document.querySelectorAll(".navbar__list");
 const animations = document.querySelectorAll(".animation");
+const lightdark = document.querySelector(".js-light");
+const body = document.querySelector("body");
+const work = document.querySelector(".work");
+const header = document.querySelector(".header");
 
 window.addEventListener("scroll", () => {
   scrolBtnC.classList.toggle("btns-active", window.scrollY > 500);
@@ -44,4 +48,10 @@ window.addEventListener("scroll", () => {
         animations[i].classList.remove("animation-active");
     }
   }
+});
+
+lightdark.addEventListener("click", () => {
+  body.classList.toggle("color-active");
+  work.classList.toggle("color-active");
+  header.classList.toggle("color-active");
 });
