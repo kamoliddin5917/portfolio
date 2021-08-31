@@ -1103,6 +1103,7 @@ a {
 .work__ul {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   list-style: none;
 }
 @media only screen and (max-width: 850px) {
@@ -1115,6 +1116,7 @@ a {
   box-shadow: 0 0 10px #fff;
   border-radius: 10px;
   padding: 20px 0;
+  margin-bottom: 10px;
   transition: all 0.4s;
 }
 @media only screen and (max-width: 850px) {
@@ -1176,6 +1178,11 @@ a {
 }
 .work__list .box--reactjs .box__link::before {
   background-image: url(../imgs/reactjs.png);
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+}
+.work__list .box--vuejs .box__link::before {
+  background-image: url(../imgs/vuejs.png);
   background-repeat: no-repeat;
   background-size: 40px 40px;
 }

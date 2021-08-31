@@ -8,6 +8,7 @@
   &__ul {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     list-style: none;
 
@@ -22,6 +23,8 @@
     box-shadow: 0 0 10px $color-white;
     border-radius: 10px;
     padding: 20px 0;
+    margin-bottom: 10px;
+
 
     transition: all .4s;
 
@@ -91,6 +94,12 @@
 
       &--reactjs .box__link::before {
         background-image: url(../imgs/reactjs.png);
+        background-repeat: no-repeat;
+        background-size: 40px 40px;
+      }
+
+      &--vuejs .box__link::before {
+        background-image: url(../imgs/vuejs.png);
         background-repeat: no-repeat;
         background-size: 40px 40px;
       }

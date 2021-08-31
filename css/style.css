@@ -68,7 +68,6 @@ input[type=checkbox]:checked+label~section {
   bottom: 4px;
   left: 4%;
   z-index: 99;
-  animation: droid-an 6s linear infinite;
 }
 
 .radios {
@@ -183,7 +182,6 @@ input[type=checkbox]:checked+label~section {
   overflow: hidden;
   position: relative;
   border: 1px solid black;
-  animation: body-an 1.2s linear infinite;
 }
 
 
