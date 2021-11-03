@@ -66,3 +66,17 @@
     }
   }
 }
+
+.pppp {
+  text-align: center;
+  color: gold;
+  font-weight: 700;
+  font-size: 35px;
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-text-stroke: 2px red;
+
+  z-index: 777;
+}

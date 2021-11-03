@@ -480,6 +480,15 @@ body::-webkit-scrollbar-thumb:hover {
   border-bottom: 2px solid red;
   margin-bottom: 20px;
 }
+.h1--name {
+  min-height: 50px;
+  padding-bottom: 0;
+}
+@media only screen and (max-width: 700px) {
+  .h1--name {
+    min-height: 150px;
+  }
+}
 
 .h3 {
   text-transform: uppercase;
@@ -1132,6 +1141,7 @@ a {
   margin-bottom: 10px;
   color: gold;
   text-shadow: -2px 2px 6px red, -2px -2px 6px red, 2px -2px 6px red, 2px 2px 6px red;
+  min-height: 30px;
 }
 .work__list .box {
   list-style: none;
@@ -1252,6 +1262,19 @@ a {
   .about__text .lenguages .lenguage {
     margin-top: 10px;
   }
+}
+
+.pppp {
+  text-align: center;
+  color: gold;
+  font-weight: 700;
+  font-size: 35px;
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-text-stroke: 2px red;
+  z-index: 777;
 }
 
 .footer {
