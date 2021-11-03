@@ -447,7 +447,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 40px;
   text-align: center;
 }
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 399px) {
   .h1 {
     font-size: 20px;
   }
@@ -487,6 +487,11 @@ body::-webkit-scrollbar-thumb:hover {
 @media only screen and (max-width: 700px) {
   .h1--name {
     min-height: 150px;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .h1--name {
+    min-height: 100px;
   }
 }
 

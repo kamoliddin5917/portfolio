@@ -6,7 +6,7 @@
   font-size: 40px;
   text-align: center;
 
-  @media only screen and(max-width:370px) {
+  @media only screen and(max-width:399px) {
     font-size: 20px;
   }
 
@@ -42,6 +42,9 @@
     padding-bottom: 0;
     @media only screen and(max-width:700px) {
       min-height: 150px;
+    }
+    @media only screen and(max-width:399px) {
+      min-height: 100px;
     }
   }
 }
