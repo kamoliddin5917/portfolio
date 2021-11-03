@@ -1281,6 +1281,13 @@ a {
   -webkit-text-stroke: 2px red;
   z-index: 777;
 }
+@media only screen and (max-width: 400px) {
+  .pppp {
+    font-size: 18px;
+    -webkit-text-stroke: 1px red;
+    color: #fff;
+  }
+}
 
 .footer {
   background-color: #fff;
