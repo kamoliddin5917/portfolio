@@ -35,6 +35,7 @@ links.forEach((link) => {
   });
 });
 
+/*
 window.addEventListener("scroll", () => {
   for (let i = 0; i < animations.length; i++) {
     let windowHeight = window.innerHeight;
@@ -49,10 +50,10 @@ window.addEventListener("scroll", () => {
     }
   }
 });
+*/
 
 lightdark.addEventListener("click", () => {
   body.classList.toggle("color-active");
   work.classList.toggle("color-active");
   header.classList.toggle("color-active");
 });
-

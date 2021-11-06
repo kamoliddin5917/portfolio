@@ -104,6 +104,11 @@
         background-repeat: no-repeat;
         background-size: 40px 40px;
       }
+      &--nodejs .box__link::before {
+        background-image: url(../imgs/nodejs.jpg);
+        background-repeat: no-repeat;
+        background-size: 40px 40px;
+      }
     }
   }
 }
