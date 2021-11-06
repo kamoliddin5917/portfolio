@@ -3,7 +3,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255, 215, 0, .7);
+  // background-color: rgba(255, 215, 0, .7);
+  background: linear-gradient(#050A30,#000C66,#0000FF,#7EC8E3);
   box-shadow: 0 2px 5px $color-red;
 
   z-index: 10;

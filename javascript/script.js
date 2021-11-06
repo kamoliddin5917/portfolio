@@ -6,7 +6,7 @@ const links = document.querySelectorAll(".navbar__list");
 const animations = document.querySelectorAll(".animation");
 const lightdark = document.querySelector(".js-light");
 const body = document.querySelector("body");
-const work = document.querySelector(".work");
+const work = document.querySelectorAll(".work__list");
 const header = document.querySelector(".header");
 
 window.addEventListener("scroll", () => {
@@ -54,6 +54,8 @@ window.addEventListener("scroll", () => {
 
 lightdark.addEventListener("click", () => {
   body.classList.toggle("color-active");
-  work.classList.toggle("color-active");
+  work.forEach((list) => {
+    list.classList.toggle("work__list-active");
+  });
   header.classList.toggle("color-active");
 });

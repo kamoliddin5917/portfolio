@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all .8s;
+  transition: all 0.8s;
 }
 
 input {
@@ -19,31 +19,30 @@ input {
   z-index: 99;
 }
 
-
-input[type=checkbox]:checked+label {
-  box-shadow: inset -20px 0 10px rgba(0, 0, 0, .5), inset -5px 0 10px rgba(0, 0, 0, .5);
+input[type="checkbox"]:checked + label {
+  box-shadow: inset -20px 0 10px rgba(0, 0, 0, 0.5),
+    inset -5px 0 10px rgba(0, 0, 0, 0.5);
 }
 
-input[type=checkbox]:checked+label .droid {
+input[type="checkbox"]:checked + label .droid {
   left: 50%;
 }
 
-input[type=checkbox]:checked+label .body {
+input[type="checkbox"]:checked + label .body {
   transform: rotate(360deg);
 }
 
-input[type=checkbox]:checked+label .eyes {
+input[type="checkbox"]:checked + label .eyes {
   left: 50%;
 }
 
-input[type=checkbox]:checked+label .radios {
+input[type="checkbox"]:checked + label .radios {
   left: 30%;
 }
 
-input[type=checkbox]:checked+label~section {
+input[type="checkbox"]:checked + label ~ section {
   background: linear-gradient(black, gold);
 }
-
 
 .bb8_label {
   display: inline-block;
@@ -54,7 +53,8 @@ input[type=checkbox]:checked+label~section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: inset 20px 0 10px rgba(0, 0, 0, .5), inset 5px 0 10px rgba(0, 0, 0, .5);
+  box-shadow: inset 20px 0 10px rgba(0, 0, 0, 0.5),
+    inset 5px 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 150px;
   border: 1px solid black;
   cursor: pointer;
@@ -72,7 +72,7 @@ input[type=checkbox]:checked+label~section {
 
 .radios {
   position: absolute;
-  transition: left .6s;
+  transition: left 0.6s;
   left: 30px;
 }
 
@@ -120,7 +120,7 @@ input[type=checkbox]:checked+label~section {
   height: 2px;
   z-index: 99;
   top: 2px;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .band.two {
@@ -133,7 +133,7 @@ input[type=checkbox]:checked+label~section {
   background: crimson;
   height: 2px;
   top: 11px;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .eyes {
@@ -141,11 +141,10 @@ input[type=checkbox]:checked+label~section {
   height: 100%;
   width: 100%;
   position: absolute;
-  transition: left .6s;
+  transition: left 0.6s;
   left: 0%;
   z-index: 100;
 }
-
 
 .eye {
   border-radius: 50%;
@@ -183,7 +182,6 @@ input[type=checkbox]:checked+label~section {
   position: relative;
   border: 1px solid black;
 }
-
 
 .circle {
   background: orange;

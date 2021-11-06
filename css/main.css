@@ -392,8 +392,9 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: gold;
-  color: #fff;
+  background: linear-gradient(#000C66, #0000FF, #7EC8E3);
+  color: gold;
+  transition: all 0.2s !important;
   /* width */
   /* Track */
   /* Handle */
@@ -414,8 +415,9 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .color-active {
-  background-color: white !important;
-  color: black !important;
+  background: linear-gradient(to top, #000C66, #0000FF, #7EC8E3) !important;
+  color: #fff !important;
+  transition: all 0.2s !important;
 }
 
 .main {
@@ -458,7 +460,7 @@ body::-webkit-scrollbar-thumb:hover {
           clip-path: polygon(49% 52%, 62% 0, 73% 33%, 86% 0, 100% 99%, 0 100%, 13% 0, 24% 35%, 35% 0);
   width: 500px;
   height: 100px;
-  background-color: gold;
+  background: linear-gradient(to top, #050A30, #000C66, #0000FF, #7EC8E3);
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -498,7 +500,7 @@ body::-webkit-scrollbar-thumb:hover {
 .h3 {
   text-transform: uppercase;
   text-align: center;
-  color: gold;
+  color: #fff;
   text-shadow: -2px 2px 4px red, -2px -2px 4px red, 2px -2px 4px red, 2px 2px 4px red;
   margin-bottom: 5px;
   word-spacing: 4px;
@@ -509,7 +511,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 15px;
   letter-spacing: 1px;
   margin-bottom: 5px;
-  color: #333;
+  color: #fff;
 }
 .p--more {
   display: flex;
@@ -702,7 +704,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255, 215, 0, 0.7);
+  background: linear-gradient(#050A30, #000C66, #0000FF, #7EC8E3);
   box-shadow: 0 2px 5px red;
   z-index: 10;
 }
@@ -1105,9 +1107,8 @@ a {
   }
 }
 .work {
-  background-color: #000;
+  background: transparent;
   padding: 40px 0;
-  box-shadow: inset 0 10px 6px #fff, inset 0 -10px 6px #fff;
 }
 .work__ul {
   display: flex;
@@ -1121,7 +1122,7 @@ a {
   }
 }
 .work__list {
-  background-color: gold;
+  background: linear-gradient(#050A30, #000C66, #0000FF, #7EC8E3);
   box-shadow: 0 0 10px #fff;
   border-radius: 10px;
   padding: 20px 0;
@@ -1132,6 +1133,10 @@ a {
   .work__list {
     margin-bottom: 10px;
   }
+}
+.work__list-active {
+  background: linear-gradient(to top, #050A30, #000C66, #0000FF, #7EC8E3);
+  transition: all 0.4s;
 }
 .work__list:hover {
   background-color: orange;
@@ -1204,7 +1209,7 @@ a {
 
 .about {
   padding: 40px 0;
-  box-shadow: inset 0 10px 6px red, inset 0 -10px 6px red;
+  background: transparent;
 }
 .about__inform {
   display: flex;
@@ -1290,9 +1295,8 @@ a {
 }
 
 .footer {
-  background-color: #fff;
+  background-color: transparent;
   padding: 40px 0;
-  box-shadow: inset 0 10px 6px #000, inset 0 -10px 6px #000;
 }
 .footer .buttons {
   display: flex;

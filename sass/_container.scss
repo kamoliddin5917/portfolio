@@ -12,8 +12,12 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: $color-primary;
-  color: $color-white;
+  // background-color: $color-primary;
+  background: linear-gradient(#000C66,#0000FF,#7EC8E3);
+  color: $color-primary;
+  transition: all .2s !important;
+
+
 
   /* width */
   &::-webkit-scrollbar {
@@ -39,8 +43,10 @@ body {
 }
 
 .color-active {
-  background-color: white !important;
-  color: black !important;
+  background: linear-gradient(to top, #000C66,#0000FF,#7EC8E3) !important;
+  color: $color-white !important;
+  transition: all .2s !important;
+
 }
 
 .main {

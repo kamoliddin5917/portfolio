@@ -15,7 +15,8 @@
     clip-path: polygon(49% 52%, 62% 0, 73% 33%, 86% 0, 100% 99%, 0 100%, 13% 0, 24% 35%, 35% 0);
     width: 500px;
     height: 100px;
-    background-color: $color-primary;
+    // background-color: $color-primary;
+    background: linear-gradient(to top,#050A30,#000C66,#0000FF,#7EC8E3);
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -52,7 +53,8 @@
 .h3 {
   text-transform: uppercase;
   text-align: center;
-  color: $color-primary;
+  // color: $color-primary;
+  color: #fff;
   text-shadow: -2px 2px 4px $color-red, -2px -2px 4px $color-red, 2px -2px 4px $color-red, 2px 2px 4px $color-red;
   margin-bottom: 5px;
   word-spacing: 4px;
@@ -63,7 +65,8 @@
   font-size: 15px;
   letter-spacing: 1px;
   margin-bottom: 5px;
-  color: #333;
+  color: #fff;
+
 
   &--more {
     display: flex;
